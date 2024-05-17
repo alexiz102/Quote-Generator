@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Prototype</title>
+</head>
+<body>
+    <nav>
+        <h1>Quote Generator</h1>
+    </nav>
+    <div id="container">
+        <div id="card-container">
+            <div class="cards"></div>
+            <div class="cards" id="display-quote">
+              <div class="quote-line">
+                  <p class="quote">
+                  </p>
+                  <p class="author"></p>
+              </div>
+          </div>
+            <div class="cards">
+                <div class="navigator ui" id="navigator">
+                    <i class="fa fa-solid fa-arrow-left arrow" id="previous"></i>
+                    <i class="fa fa-solid fa-arrow-right arrow" id="next"></i>
+                </div>
+                <div class="status ui" id="status">
+                    <i class="fa fa-download" id="download"></i>
+                    <label for="heart-btn">                     
+                        <i class="fa fa-heart"></i>
+                    </label>
+                    <input type="checkbox" id="heart-btn">
+                </div>
+                <div class="quote-line">
+                    <p class="quote">
+                    </p>
+                    <p class="author"></p>
+                </div>
+            </div>
+            <div class="cards"></div>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>

@@ -62,6 +62,9 @@ async function fetch_quote() {
     .then((response) => response.json())
     .then((data) => {
         console.log(data[0].quote)
+        if(data[0].quote.length > 300) {
+            return await fetch_quote()
+        }
         return [data[0].quote, data[0].author]
     })
 }

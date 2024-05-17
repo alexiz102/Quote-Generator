@@ -71,7 +71,8 @@ h1 {
 }
 
 .quote, .author {
-  -webkit-text-stroke: 1px black;
+  text-shadow: 0px 0px 1px black;
+/*   -webkit-text-stroke: 1px black; */
   padding: .5rem;
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -156,4 +157,9 @@ input[type=checkbox] {
    .quote-line {
       font-size: calc(100dvw/32);
    }
+
+  .fa-heart {
+    color: var(--heart-icon);
+    -webkit-text-stroke: 1px var(--outline-icon);
+  }
 }

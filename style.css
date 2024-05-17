@@ -75,7 +75,7 @@ h1 {
 }
 
 .quote, .author {
-  text-shadow: 0px 0px 1px black;
+  text-shadow: 0px 0px 3px black;
 /*   -webkit-text-stroke: 1px black; */
   padding: .5rem;
   color: white;

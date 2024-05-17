@@ -48,6 +48,10 @@ h1 {
   transform: rotate(-5deg) translate(-10%, -5%);
 }
 
+.cards:nth-child(2) {
+  z-index: -100;
+}
+
 .cards:nth-child(3) {
   display: flex;
   flex-direction: column;
